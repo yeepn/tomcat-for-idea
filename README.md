@@ -157,7 +157,7 @@ deploy操作完成后，我们运行org.apache.catalina.startup.Bootstrap的main
 tomcat源码运行需要一个编译好的目录作为catalina.home才能运行，这里我们选择上一步生成的output/build作为catalina.home，并设置jvm参数，如下：
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/165192/1601827875886-e64c62ff-25f8-4519-a2a9-9d3dbff0045b.png#align=left&display=inline&height=460&margin=%5Bobject%20Object%5D&name=image.png&originHeight=644&originWidth=1044&size=51728&status=done&style=none&width=746)
 ```
--Dcatalina.home="/Users/liuyang/Downloads/apache-tomcat-8.5.58-src/output/build"
+-Dcatalina.home="output/build"
 -Dfile.encoding=UTF8
 -Duser.language=en
 -Duser.region=US
